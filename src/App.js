@@ -10,7 +10,6 @@ import Details from './components/Home/Details/Details';
 import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import AuthProvider from './contexts/AuthProvider';
-import Register from './components/Login/Register/Register';
 function App() {
   return (
     <>
@@ -33,9 +32,6 @@ function App() {
             </Route>
             <Route exact path="/login">
               <Login></Login>
-            </Route>
-            <Route exact path="/register">
-              <Register></Register>
             </Route>
             <PrivateRoute exact path="/details/:id">
               <Details></Details>
