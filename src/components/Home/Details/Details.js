@@ -24,7 +24,7 @@ const Details = () => {
     }, [details])
 
     return (
-        <div>
+        <div className="mt-5 pt-3">
 
             <Container>
                 <h2 className="text-center my-5">Details Of <span className="text-danger">{specificDetails.name}</span></h2>
