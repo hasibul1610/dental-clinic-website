@@ -5,7 +5,7 @@ import './Doctors.css';
 
 const Doctors = () => {
     return (
-        <div>
+        <div className="doctors">
             <h1 className="text-center my-5">Highly Qualified Dentists</h1>
             <p className="text-center my-3">We have built our dentistry over the strong pillars of 22 MDS surgeons. Our team has expert professionals who are immensely experienced for several years.</p>
             <br />

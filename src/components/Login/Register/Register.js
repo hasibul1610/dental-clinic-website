@@ -2,22 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
-const Login = () => {
+const Register = () => {
     const { signInUsingGoogle } = useAuth();
-
     return (
-        <div className=" text-center my-5 py-5">
+        <div>
             <div>
-                <h2>Login </h2>
+                <h2>Register Here</h2>
                 <form onSubmit="">
-                    <input type="email" name="" id="" placeholder="Input Your Email" />
+                    <input type="email" name="" id="" placeholder="Enter Email " />
                     <br />
-                    <input type="password" name="" id="" />
+                    <input type="password" name="" id="" placeholder="Give Password" />
+                    <br />
+                    <input type="password" name="" id="" placeholder="Again Password" />
                     <br />
                     <input type="submit" value="Submit" />
                 </form>
-                <p>New to Ema John <Link to="/register">Create Account</Link></p>
-                <div>---------Or---------</div>
+                <p>Already Have an Account <Link to="/login">Login</Link></p>
+
+                <p>---------Or--------</p>
+
                 <button onClick={() => signInUsingGoogle()} className="common-btn">Google Sign In</button>
             </div>
 
@@ -25,4 +28,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;
