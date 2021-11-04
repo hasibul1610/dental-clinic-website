@@ -1,0 +1,13 @@
+.footer-container{
+    background-color: #212423;
+    padding-top: 60px;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    margin-left: -30px;
+    color: #838a87;
+}
+ul li:hover{
+    color: tomato;
+}

@@ -1,0 +1,21 @@
+.doctor-card{
+    width: 355px;
+    border: 2px solid #3FCE92;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+}
+.doctor-img{
+    display: block;
+    transition: transform 1s;
+}
+.doctor-img:hover{
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+}
+.doctor-details{
+    color: turquoise;
+    margin-left: 15px;
+}

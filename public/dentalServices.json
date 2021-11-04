@@ -1,0 +1,56 @@
+[
+    {
+        "key": 1,
+        "image": "https://www.dentvitalis.com/images/izbjeljivanje-zuba.jpg",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/teeth-whiting.jpg",
+        "name": "Teeth Whitening",
+        "price": 249,
+        "subName": "Tooth whitening can make your teeth sparkling white and beautiful!",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    },
+    {
+        "key": 2,
+        "image": "https://pearldentalchennai.com/wp-content/uploads/2019/01/gum-treatment-300x195.jpg",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/gum-treatment.jpg",
+        "name": "Gum Treatment",
+        "price": 200,
+        "subName": "Gum disease like gingivitis, periodontitis can cause you to lose teeth.",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    },
+    {
+        "key": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwbW8teguzVTZFs0w65fuXb-XdxKMmaSQorY_ZAjt8snkt5g1gg3mwDpZtzXYk-GMhz0M&usqp=CAU",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/sleep-apena.jpg",
+        "name": "Sleep Apnea",
+        "price": 300,
+        "subName": "Snoring is one of the symptoms of a health condition known as sleep apnea.",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    },
+    {
+        "key": 4,
+        "image": "http://dentistryonelgin.com/wp-content/uploads/2017/08/AdobeStock_97837424.jpeg",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/restore.jpg",
+        "name": "Restorations",
+        "price": 319,
+        "subName": "Tooth restorations are the various ways your dentist can replace missing teeth",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    },
+    {
+        "key": 5,
+        "image": "http://mydentalhub.in/wp-content/uploads/2019/09/4-carat-diamond-ring-4-carat-diamond-ring-princess-cut-youtube-4-carat-diamond-ring-priXce.jpg",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/smile-treament.jpg",
+        "name": "Smile Design",
+        "price": 269,
+        "subName": "Smile Design, is a multi-use conceptual dental treatment.",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    },
+    {
+        "key": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxvBuciZRzIkkqd7UNJiRPHXI3-0HEfnLCrw&usqp=CAU",
+        "image2": "https://thegenius.co/dentistry/live/wp-content/uploads/2015/10/root-canal.jpg",
+        "name": "Root Canal",
+        "price": 199,
+        "subName": "A root canal is the anatomic space within the root of a tooth.!",
+        "description": "Everyone wants a white teeth and healthy smile and Unfortunately, things don’t always go as planned, which explains why teeth whitening is such a popular procedure."
+    }
+]

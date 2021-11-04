@@ -1,0 +1,17 @@
+.details-right{
+    background: #F5F5F0;
+    padding: 20px;
+}
+.details-img-container{
+    border: 1px solid white;
+    overflow: hidden;
+}
+.details-img{
+    display: block;
+    transition: transform 1s;
+
+}
+.details-img:hover{
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+}
