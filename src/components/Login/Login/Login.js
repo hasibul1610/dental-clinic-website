@@ -1,72 +1,12 @@
-import React, { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification } from "firebase/auth";
 import { Form, Container } from 'react-bootstrap';
 import './Login.css';
 
 
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
-
-    const auth = getAuth();
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [error, setError] = useState("");
-    const [isLogin, setIsLogin] = useState(false);
-
-    const handleSignInEmail = (e) => {
-        setEmail(e.target.value);
+    const { signInUsingGoogle, toggleLogin, isLogin, error, handleRegister, handleSignInEmail, handleSignInPassword } = useAuth();
 
 
-    }
-    const handleSignInPassword = (e) => {
-        setPassword(e.target.value);
-
-
-    }
-    const handleRegister = (e) => {
-        e.preventDefault()
-        if (!/^(?=.*[A-Za-z])/.test(password)) {
-            setError("Please give at least Uppercase");
-            return;
-        }
-        isLogin ? processLogin(email, password) : createNewUser(email, password);
-
-
-    }
-    const createNewUser = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                console.log(result.user)
-                setError("")
-                verifyLogin()
-            })
-            .catch(error => {
-                setError(error.message)
-            })
-    }
-    const processLogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then((result) => {
-                // Signed in 
-                console.log(result.user)
-                setError("")
-                // ...
-            })
-            .catch((error) => {
-                setError(error.message);
-            });
-
-    }
-    const verifyLogin = () => {
-        sendEmailVerification(auth.currentUser)
-            .then(result => {
-                console.log(result);
-            })
-    }
-    const toggleLogin = (e) => {
-        setIsLogin(e.target.checked);
-    }
 
     return (
         <Container>

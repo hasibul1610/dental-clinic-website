@@ -4,7 +4,7 @@ import notFoundImg from '../../images/404-img.png';
 
 const NotFound = () => {
     return (
-        <div className="text-center">
+        <div className="text-center mt-5">
             <img className="my-4" width="300px" src={notFoundImg} alt="" />
             <h1>Error 404</h1>
             <h2>Page Not Found</h2>

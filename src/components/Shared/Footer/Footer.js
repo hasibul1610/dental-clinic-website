@@ -70,13 +70,13 @@ const Footer = () => {
                     </Col>
                     <Col>
                         <ul>
-                            <li>1800-123-4567</li>
+                            <li>+8801765471227</li>
 
                         </ul>
                     </Col>
                     <Col>
                         <ul>
-                            <li>info@denistry.com</li>
+                            <li>bcse.hasibul@gmail.com</li>
 
 
                         </ul>
